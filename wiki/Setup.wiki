@@ -1,0 +1,37 @@
+#summary How to set up communication between the android app and the desktop/laptop.
+#labels Featured,Phase-Deploy
+
+= Introduction =
+
+The android application can communicate with your desktop in multiple ways, and you can enable more than one at the same time for better reliability.
+
+(TODO: screenshot of settings in app)
+
+Please notice you don't need to keep the application running in the foreground on the Android device - it runs as a service, meaning it stays dormant on the background until an event happens.
+
+= Wifi method =
+
+This method works by sending broadcast packets over the network, which in practice means your android device and your desktop must be on the same network - if they are not, it's likely that these packets won't reach the desktop. The main downside of this method is that the communication is unencrypted (not more than your wifi's encryption, that is), meaning anyone with access to your wifi network will be able to intercept and forge notifications.
+
+To set it up using this method:
+  # Install and run the Android app from the Android Market
+  # Install and run the Desktop app for your OS from the Downloads section above
+  # Ensure both the desktop and the device are on the same network
+  # If you have a firewall on your desktop, ensure it will allow incoming UDP packets on port 10600
+  # Enable the Wifi notification method on the android app's settings (enabled by default)
+  # Enable the Wifi notification method on the desktop app's settings (enabled by default)
+  # In the desktop app, choose "Add Device" from the menu - it will show a dialog waiting for data from the device
+  # In the android app, choose "Send test notification"
+  # The desktop app will recognize the device and start display events from it - try making your phone ring, or sending additional test notifications
+
+= Bluetooth method =
+
+This method opens a serial (RFCOMM) connection between the device and the desktop, so they need to be paired. Because the device is specifically paired to your computer, you don't need any specific network connectivity, and the bluetooth connection is guaranteed to be encrypted.
+
+To set it up using this method:
+  # Install and run the Android app from the Android Market
+  # Install and run the Desktop app for your OS from the Downloads section above
+  # Ensure the android device is paired with your desktop (Settings > Wifi and networks > Bluetooth settings on Android)
+  # Enable the Bluetooth notification method on the android app's settings (enabled by default)
+  # Enable the Bluetooth notification method on the desktop app's settings (enabled by default)
+  # The desktop app will listen to and start displaying events from the android app - try making your phone ring, or sending additional test notifications.
