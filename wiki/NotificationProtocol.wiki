@@ -6,10 +6,11 @@
 We use the same protocol over all notification methods.
 It uses an extremely complex packet format:
 
-DEVICE_ID/EVENT_TYPE/EVENT_CONTENTS
+DEVICE_ID/NOTIFICATION_ID/EVENT_TYPE/EVENT_CONTENTS
 
 Where the fields are:
   * DEVICE_ID - string that uniquely identifies the device sending the event
+  * NOTIFICATION_ID - a unique ID for the notification, used to eliminate duplicate notifications
   * EVENT_TYPE - one of {RING,SMS,MMS,BATTERY,PING}
   * EVENT_CONTENTS - any text that carries additional information to be displayed with the notification
 
