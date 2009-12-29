@@ -20,9 +20,14 @@ To set it up using this method:
   # If you have a firewall on your desktop, ensure it will allow incoming UDP packets on port 10600
   # Enable the Wifi notification method on the android app's settings (enabled by default)
   # Enable the Wifi notification method on the desktop app's settings (enabled by default)
-  # In the desktop app, choose "Add Device" from the menu - it will show a dialog waiting for data from the device
-  # In the android app, choose "Send test notification"
-  # The desktop app will recognize the device and start display events from it - try making your phone ring, or sending additional test notifications
+  # The desktop app will listen to and start displaying events from the android app - try making your phone ring, or sending additional test notifications.
+
+If there are multiple devices running the application in the same wifi network, you can choose on the desktop application to listen only to specific devices:
+  # Open the desktop app's preferences
+  # Under "Notifications can be sent by", choose "Only paired devices"
+  # Click the add button below the paired devices list to add a new device - it will show a dialog waiting for a test notification from the device
+  # Run the Android app, then choose "Sent test notification"
+  # The device is added to the paired devices list - you can edit its name for your own reference.
 
 = Bluetooth method =
 
