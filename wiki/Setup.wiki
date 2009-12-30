@@ -3,9 +3,11 @@
 
 = Introduction =
 
-The android application can communicate with your desktop in multiple ways, and you can enable more than one at the same time for better reliability.
+These instructions tell you how to set up communication between the Android and the desktop components of the notifier. The android application can communicate with your desktop in multiple ways, and you can enable more than one at the same time for better reliability.
 
-(TODO: screenshot of settings in app)
+Below you'll find details of setting up each method - all methods assume that you have installed both the Android application and the desktop counterpart. To easily find the android app in the Android Market, you can scan this QR code:
+
+http://chart.apis.google.com/chart?cht=qr&chs=350x350&chl=market%3A%2F%2Fsearch%3Fq%3Dpname%3Aorg.damazio.notifier&nonsense=something_that_ends_with.png
 
 Please notice you don't need to keep the application running in the foreground on the Android device - it runs as a service, meaning it stays dormant on the background until an event happens.
 
