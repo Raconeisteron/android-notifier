@@ -40,3 +40,7 @@ To set it up using this method:
   # Enable the Bluetooth notification method on the android app's settings (enabled by default)
   # Enable the Bluetooth notification method on the desktop app's settings (enabled by default)
   # The desktop app will listen to and start displaying events from the android app - try making your phone ring, or sending additional test notifications.
+
+= USB method =
+
+This method is still under development, we'll update this doc when it's ready for general use.
