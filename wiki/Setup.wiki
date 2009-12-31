@@ -35,6 +35,8 @@ If there are multiple devices running the application in the same wifi network, 
 
 This method opens a serial (RFCOMM) connection between the device and the desktop, so they need to be paired. Because the device is specifically paired to your computer, you don't need any specific network connectivity, and the bluetooth connection is guaranteed to be encrypted.
 
+*IMPORTANT*: This method is only supported in Android 2.0 or later, due to the bluetooth API not being accessible in older versions. To see what version of Android you have, go to Settings > About phone > Firmware version - if it's less than 2.0, you'll have to use the wi-fi method instead
+
 To set it up using this method:
   # Install and run the Android app from the Android Market
   # Install and run the Desktop app for your OS from the Downloads section above
