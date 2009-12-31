@@ -11,6 +11,10 @@ http://chart.apis.google.com/chart?cht=qr&chs=350x350&chl=market%3A%2F%2Fsearch%
 
 Please notice you don't need to keep the application running in the foreground on the Android device - it runs as a service, meaning it stays dormant on the background until an event happens.
 
+= Mac note =
+
+Mac OS X does not have a built-in pop-up notification mechanism, so must have [http://growl.info/ Growl] installed. Please see their page to download and install it.
+
 = Wifi method =
 
 This method works by sending broadcast packets over the network, which in practice means your android device and your desktop must be on the same network - if they are not, it's likely that these packets won't reach the desktop. The main downside of this method is that the communication is unencrypted (not more than your wifi's encryption, that is), meaning anyone with access to your wifi network will be able to intercept and forge notifications.
