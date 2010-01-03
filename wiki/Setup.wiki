@@ -13,11 +13,17 @@ To easily find the android app in the Android Market, you can scan this QR code:
 
 http://chart.apis.google.com/chart?cht=qr&chs=350x350&chl=market%3A%2F%2Fsearch%3Fq%3Dpname%3Aorg.damazio.notifier&nonsense=something_that_ends_with.png
 
-Once installed, running it will display a preferences screen - in that screen you can select your desired notification methods and events. After the application is closed, notifications are handled by a background service which displays nothing on the device. The service can be started and stopped from the preferences screen, and by default, it will be restarted every time the phone is rebooted (to prevent that, simply disable "Start at boot" in the preferences screen).
+Once installed, running it will display a preferences screen:
+
+http://android-notifier.googlecode.com/svn/wiki/setup-screenshot.png
+
+In this screen you can select your desired notification methods and events.
+
+After the application is closed, notifications are handled by a background service which displays nothing on the device. The service can be started and stopped from the preferences screen, and by default, it will be restarted every time the phone is rebooted (to prevent that, simply disable "Start service at boot" in the preferences screen).
 
 = Mac note =
 
-Mac OS X does not have a built-in pop-up notification mechanism, so must have [http://growl.info/ Growl] installed. Please see their page to download and install it.
+Mac OS X does not have a built-in pop-up notification mechanism, so you must have [http://growl.info/ Growl] installed. Please see their page to download and install it.
 
 = Wifi method =
 
