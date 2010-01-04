@@ -38,7 +38,17 @@ To set it up using this method:
   # Enable the Wifi notification method on the desktop app's settings (enabled by default)
   # The desktop app will listen to and start displaying events from the android app - try making your phone ring, or sending additional test notifications.
 
-If there are multiple devices running the application in the same wifi network, you can choose on the desktop application to listen only to specific devices:
+Also, you may want to keep the wifi active even when the phone screen turns off so that you can receive notifications. To do this:
+
+  # Open Android Settings
+  # Select Wireless & Networks
+  # Select Wi-Fi settings
+  # Press menu and select Advanced
+  # Change the option "Wi-Fi sleep policy" to select when it turns off
+
+This will ensure that wifi stays on to send your notifications, but it also means your battery may drain faster.
+
+Finally, If there are multiple devices running the application in the same wifi network, you can choose on the desktop application to listen only to specific devices:
   # Open the desktop app's preferences
   # Under "Notifications can be sent by", choose "Only paired devices"
   # Click the add button below the paired devices list to add a new device - it will show a dialog waiting for a test notification from the device
