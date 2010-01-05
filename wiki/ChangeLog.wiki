@@ -1,0 +1,43 @@
+#summary Summary of changes in each released
+
+= Changes in each version =
+
+== Android app ==
+
+=== Future ===
+  * Add selection of which broadcast/unicast IP to use for Wifi
+  * Allowing device selection and pairing for bluetooth
+
+=== v0.1.1 ===
+  * UI changes
+    * Added toast notifications for most events in settings
+    * Added warning when trying to enable bluetooth in Android < 2.0
+    * Added a welcome dialog
+    * Added an about dialog
+  * Added caller ID from contacts on incoming calls
+  * Service starts at boot and app start by default
+
+=== v0.1 ===
+  * Initial version
+
+== Mac app ==
+
+=== Future ===
+  * Allow other actions than just Growl notifications
+  * Allow bluetooth device selection/pairing
+
+=== v0.2.2 ===
+  * Fixed SMS notifications through Growl
+  * Added pt-BR locale
+  * Added startup check for Growl
+
+=== v0.2.1 ===
+  * Fix for wifi pairing
+
+=== v0.2 ===
+  * Fixed enabling/disabling of bluetooth method
+  * Fixed race condition in receiving multiple notifications in different threads
+  * Saving settings before pairing a new device
+
+=== v0.1 ===
+  * Initial version
