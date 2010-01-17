@@ -5,8 +5,14 @@
 == Android app ==
 
 === Future ===
-  * Add selection of which broadcast/unicast IP to use for Wifi
   * Allowing device selection and pairing for bluetooth
+  * Give option to use TCP for Wifi
+
+=== v0.2 ===
+  * Rebuilt UI using an Android standard preference UI
+  * Added option to enable wifi only when about to send a notification
+  * Added selection of which broadcast/unicast IP to use for Wifi
+  * Added shortcut to Android's wifi sleep policy option
 
 === v0.1.1 ===
   * UI changes
@@ -23,8 +29,12 @@
 == Mac app ==
 
 === Future ===
-  * Allow other actions than just Growl notifications
   * Allow bluetooth device selection/pairing
+
+=== v0.2.3 ===
+  * Rebuilt preferences UI
+  * Allowing other actions than just Growl notifications: mute and execute
+  * Improved 64-bit compatibility
 
 === v0.2.2 ===
   * Fixed SMS notifications through Growl
