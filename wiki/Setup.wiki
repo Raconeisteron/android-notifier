@@ -36,8 +36,15 @@ To set it up using this method:
   # Install and run the Desktop app for your OS from the Downloads section above
   # Ensure the android device is paired with your desktop (Settings > Wifi and networks > Bluetooth settings on Android)
   # Enable the Bluetooth notification method on the android app's settings (enabled by default)
+  # Open bluetooth options in the android app's settings (see below for a description of each option)
   # Enable the Bluetooth notification method on the desktop app's settings (enabled by default)
   # The desktop app will listen to and start displaying events from the android app - try making your phone ring, or sending additional test notifications.
+  # You can now exit the android app - the notifications service will be running in the background by default
+
+The presented bluetooth options are the following:
+  * *Device pairing* - select this to open Android's system bluetooth options, where you can pair your target device
+  * *Target device* - once your device is paired, select this option to send notifications to a specific device. If this is set to "Any device" (the default), the notifications will be sent to the first computer device found
+  * *Auto-enable bluetooth* - if enabled, notifications can be sent over bluetooth even if you keep it disabled - every time we need ot send a notification, we'll enable it, send the notification, then disable it again. The downside of this option is that it can take multiple seconds for the notification to actually be sent.
 
 = Wifi method =
 
@@ -49,18 +56,18 @@ To set it up using this method:
   # Ensure both the desktop and the device are on the same network
   # If you have a firewall on your desktop, ensure it will allow incoming UDP packets on port 10600
   # Enable the Wifi notification method on the android app's settings (enabled by default)
+  # Open the Wifi options in the android app's settings (see a description of the options below)
   # Enable the Wifi notification method on the desktop app's settings (enabled by default)
   # The desktop app will listen to and start displaying events from the android app - try making your phone ring, or sending additional test notifications.
+  # You can now exit the android app - the notifications service will be running in the background by default
 
-Also, you may want to keep the wifi active even when the phone screen turns off so that it can send notifications. To do this:
-
-  # Open Android's Settings
-  # Select Wireless & Networks
-  # Select Wi-Fi settings
-  # Press menu and select Advanced
-  # Change the option "Wi-Fi sleep policy" to select when it turns off
-
-This will ensure that wifi stays on, but it also means your battery may drain faster.
+The bluetooth options on the device are the following:
+  * *Target IP address* - this is the IP address notifications will be sent to. While the default (global broadcast) is sufficient for most cases, you may want one of the following options intead:
+    * *_Global broadcast_* - sends notifications to 255.255.255.255 (should work on most networks);
+    * *_DHCP broadcast_* - detects the DHCP configuration of your current Wifi network and uses its broadcast address for sending notifications. If no DHCP information is set (e.g. you're using a static IP), the notifications won't be sent;
+    * *_Custom address_* - allows you to type in a specific IP address to send notifications to (doesn't need to be a broadcast address). This is useful if your network doesn't allow broadcast packets, or you want to prevent others in the network from receiving  your notifications.
+  * *Wifi sleep policy* - this is a system setting from android which controls when the Wifi will be turned off. By default, it's turned off whenever the screen is turned off - if you want to get notifications when the screen is off, you probably want to change this default to either "never when plugged" or "never" - these options will consume a little more battery, but will ensure notifications are always delivered
+  * *Auto-enable wifi* - if you do not wish to keep your wifi on all the time with the above option, and can tolerate notifications being delayed by a few seconds, then this option will make Wifi be turned on whenever a notification needs to be sent, and then turned off again after it's been sent. The extra delay introduced is the time it takes for your phone to join a network.
 
 Finally, If there are multiple devices running the application in the same wifi network, you can choose on the desktop application to listen only to specific devices:
   # Open the desktop app's preferences
