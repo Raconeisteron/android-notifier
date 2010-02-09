@@ -1,18 +1,23 @@
 #summary Summary of changes in each released
+#labels Featured
 
 = Changes in each version =
 
 == Android app ==
 
 === Future ===
-  * Allowing device selection and pairing for bluetooth
   * Give option to use TCP for Wifi
 
 === v0.2 ===
   * Rebuilt UI using an Android standard preference UI
   * Added option to enable wifi only when about to send a notification
+  * Added option to enable bluetooth only when about to send a notification
   * Added selection of which broadcast/unicast IP to use for Wifi
+  * Added target bluetooth device selection
   * Added shortcut to Android's wifi sleep policy option
+  * Added shortcut to Android's bluetooth pairing screen
+  * Notification sending is now asynchronous (much faster/doesn't block the UI)
+  * Only uses computer devices for bluetooth notifications (thanks to Steve Atwell)
 
 === v0.1.1 ===
   * UI changes
