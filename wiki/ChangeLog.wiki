@@ -1,4 +1,4 @@
-#summary Summary of changes in each released
+#summary Summary of changes in each release
 #labels Featured
 
 = Changes in each version =
