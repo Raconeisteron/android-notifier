@@ -8,6 +8,12 @@
 === Future ===
   * Give option to use TCP for Wifi
 
+=== v0.2.1 ===
+  * Fixed bluetooth device selection - stops discovery before enumerating
+  * Fixed delayed notifications - added looper to notificaiton thread
+  * Improved log messages
+  * Added missing pt-br translations
+
 === v0.2 ===
   * Rebuilt UI using an Android standard preference UI
   * Added option to enable wifi only when about to send a notification
