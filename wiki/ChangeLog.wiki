@@ -45,12 +45,17 @@
 === v0.2.3 ===
   * Rebuilt preferences UI
   * Allowing other actions than just Growl notifications: mute and execute
+  * Added example scripts for execute action
   * Improved 64-bit compatibility
+  * Update checks changed to once a week
+  * Allowing multiple simultaneous bluetooth notifications
+  * Fixed "pairing required" when no devices are paired
+  * Added a check that Growl is running (in addition to installed)
 
 === v0.2.2 ===
   * Fixed SMS notifications through Growl
   * Added pt-BR locale
-  * Added startup check for Growl
+  * Added startup check for Growl being installed
 
 === v0.2.1 ===
   * Fix for wifi pairing
