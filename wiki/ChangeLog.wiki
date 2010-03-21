@@ -45,6 +45,7 @@
 
 === Future ===
   * Allow bluetooth device selection/pairing
+  * Allow hiding of the menu icon (use a preference pane instead, like Growl does)
 
 === v0.2.3 ===
   * Rebuilt preferences UI
