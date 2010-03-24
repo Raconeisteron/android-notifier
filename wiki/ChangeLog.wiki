@@ -8,6 +8,7 @@
 === Future ===
   * Give option to use TCP for Wifi
   * Add real MMS support (not just text)
+  * Allow notifying any text
 
 === v0.2.2 ===
   * Added compatibility for Cupcake (Android 1.5/API level 3)
@@ -46,6 +47,7 @@
 === Future ===
   * Allow bluetooth device selection/pairing
   * Allow hiding of the menu icon (use a preference pane instead, like Growl does)
+  * Add "copy to clipboard" as an action
 
 === v0.2.3 ===
   * Rebuilt preferences UI
