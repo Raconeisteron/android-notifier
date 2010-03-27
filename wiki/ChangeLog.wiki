@@ -47,7 +47,9 @@
 === Future ===
   * Allow bluetooth device selection/pairing
   * Allow hiding of the menu icon (use a preference pane instead, like Growl does)
-  * Add "copy to clipboard" as an action
+
+=== v0.2.4 ===
+  * Added "copy to clipboard" as an action
 
 === v0.2.3 ===
   * Rebuilt preferences UI
