@@ -12,6 +12,8 @@
   * Notify missed calls separately so their notifications can be sticky
   * Allow notifying any text
   * Allow desktop to send SMS or make calls
+  * Allow desktop to ping phone ("phone finder")
+  * Widget to turn service on/off
 
 === v0.2.3 (unreleased) ===
   * Added Russian localization (thakns to admin@krom.org.ru)
