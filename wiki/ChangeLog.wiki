@@ -6,9 +6,9 @@
 == Android app ==
 
 === Future ===
+  * Protocol v2
   * Give option to use TCP for Wifi
   * Add USB support via TCP
-  * Notify about new voicemail
   * Notify missed calls separately so their notifications can be sticky
   * Allow notifying any text
   * Allow desktop to send SMS or make calls
@@ -16,9 +16,12 @@
   * Widget to turn service on/off
 
 === v0.2.3 (unreleased) ===
+  * Notify about new voicemail
+  * Added faciltiies for reporting bugs from within the app
   * Added Russian localization (thakns to admin@krom.org.ru)
   * Added Chinese localization (thanks to TitanJiang)
   * Changed icons (thanks to Kahil Young)
+  * Added retries to bluetooth notifications (possible Nexus One bug fix)
   * Fixed leaked listener registration
   * Fixed bug where newly-paired bluetooth devices weren't shown
   * Changed messages to battery level can be parsed easily
@@ -68,6 +71,9 @@
 === v0.2.4 (unreleased) ===
   * Added "copy to clipboard" as an action
   * Added nice icons, thanks to Kahil Young
+  * Added Chinese translation, thanks to Michael Jiang
+  * Added Russian translation thanks to admin at krom dot org dot ru
+  * Support for the newer v2 protocol (ahead of the Android app using it)
 
 === v0.2.3 ===
   * Rebuilt preferences UI
