@@ -9,13 +9,13 @@
   * Notify missed calls separately so their notifications can be sticky
   * Allow desktop to send SMS or make calls
   * Allow desktop to ping phone ("phone finder")
-  * Give option to use TCP for Wifi
   * Add USB support via TCP
   * Allow notifying any text
   * Widget to turn service on/off
 
 === v0.2.4 (unreleased) ===
   * Protocol v2
+  * Give option to use TCP for Wifi
 
 === v0.2.3 ===
   * Notify about new voicemail
@@ -68,12 +68,12 @@
 === Future ===
   * Add missed call support
   * Allow sending SMS or making calls
-  * Allow receiving notifications over TCP
   * Add usb support using adblib
   * Allow bluetooth device selection/pairing
   * Allow hiding of the menu icon (use a preference pane instead, like Growl does)
 
 === v0.2.5 (unreleased) ===
+  * Allow receiving notifications over TCP
 
 === v0.2.4 ===
   * Added "copy to clipboard" as an action
