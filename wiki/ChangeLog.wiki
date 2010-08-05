@@ -12,10 +12,16 @@
   * Add USB support via TCP
   * Allow notifying any text
   * Widget to turn service on/off
+  * Add Locale plugin
 
-=== v0.2.4 (unreleased) ===
+=== v0.2.4 ===
   * Protocol v2
   * Give option to use TCP for Wifi
+  * Option to allow sending TCP/UDP over cell phone network
+  * Froyo preferences backup support
+  * Fixed boot startup
+  * Respects background data system setting
+  * Added Dutch translation
 
 === v0.2.3 ===
   * Notify about new voicemail
@@ -72,10 +78,10 @@
   * Allow bluetooth device selection/pairing
   * Allow hiding of the menu icon (use a preference pane instead, like Growl does)
 
-=== v0.2.5 (unreleased) ===
+=== v0.2.6 ===
   * Allow receiving notifications over TCP
 
-=== v0.2.4 ===
+=== v0.2.4 / v0.2.5 ===
   * Added "copy to clipboard" as an action
   * Added nice icons, thanks to Kahil Young
   * Added Chinese translation, thanks to Michael Jiang
