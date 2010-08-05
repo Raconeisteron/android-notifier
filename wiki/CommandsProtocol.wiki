@@ -17,10 +17,10 @@ Command responses use the notification type RESPONSE, with the first data field 
 
 == IP discovery for Wifi ==
 
-To find out the IP address of the device when on Wifi, we send DISCOVERY message as UDP broadcast, including the paired device ID - e.g.:
+Since we don't know the IP address of a device over Wifi, we send a COMMAND message as UDP broadcast, including the paired device ID - e.g.:
 
 {{{
-v2/12345/987654/DISCOVERY//
+v2/12345/987654/COMMAND//
 }}}
 
 The device will then reply by opening a TCP connection to the requester, and sending:
