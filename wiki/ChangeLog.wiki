@@ -14,6 +14,12 @@
   * Widget to turn service on/off
   * Add Locale plugin
 
+=== v0.2.5 ===
+  * Fixed custom IP validation
+  * (hopefully) made the app show up for 1.6 users again
+  * Added battery level filtering options
+  * Added an optional notification icon
+
 === v0.2.4 ===
   * Protocol v2
   * Give option to use TCP for Wifi
