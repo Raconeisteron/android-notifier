@@ -70,7 +70,7 @@ The bluetooth options on the device are the following:
   * *Send with TCP* - only possible when using a custom target address, this sends notifications over the reliable (but slightly slower) TCP protocol (this is recommended if you'll be sending notifications over the cell phone data network)
   * *Send over cell network* - this allows sending the notifications over the cell phone data network (3G/HSDPA/UMTS/etc) if Wifi is off. See notes below about properly setting this up.
   * *Auto-enable wifi* - if you do not wish to keep your wifi on all the time with the above option, and can tolerate notifications being delayed by a few seconds, then this option will make Wifi be turned on whenever a notification needs to be sent, and then turned off again after it's been sent. The extra delay introduced is the time it takes for your phone to join a network. Also notice this is mutually exclusive with sending over the cell network - only one of these two actions is possible when Wifi is off.
-  * *Wifi sleep policy* - this is a system setting from android which controls when the Wifi will be turned off. By default, it's turned off whenever the screen is turned off - if you want to get notifications when the screen is off, you probably want to change this default to either "never when plugged" or "never" - these options will consume a little more battery, but will ensure notifications are always delivered
+  * *Wifi sleep policy* - this is a system setting from android which controls when the Wifi will be turned off. By default, it's turned off whenever the screen is turned off - if you want to get notifications over Wifi when the screen is off, you probably want to change this default to either "never when plugged" or "never" - these options will consume a little more battery, but will ensure notifications are always delivered. Another option is to use the "Auto-enable wifi" option above.
 
 Finally, you can choose on the desktop application to listen only to specific devices:
   # Open the desktop app's preferences
@@ -82,6 +82,8 @@ Finally, you can choose on the desktop application to listen only to specific de
 == Sending over Wifi ==
 
 When sending over Wifi, ideally both the phone and the desktop should be on the same network - if they are not, it's likely that these packets won't reach the desktop. Also, if you use a custom IP, make sure that IP won't change, or make your wifi router serves DNS names for internal DHCP clients and then use the computer's hostname.
+
+Another important thing to notice is that by default, Android will turn Wifi off when the phone is sleeping (i.e. the screen turns off). See the "Wifi sleep policy" option above for details.
 
 == Sending over the cell phone data network ==
 
