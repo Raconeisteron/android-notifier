@@ -14,6 +14,19 @@
   * Widget to turn service on/off
   * Add Locale plugin
 
+=== v0.2.6 ===
+  * Added multiple IPs support
+  * Added multiple bluetooth device support
+  * Added third-party app notification support
+  * Fixed many bugs reported through android reporting
+  * Added support for all screen sizes
+  * Added battery reporting options
+  * Fixed battery reporting logic
+  * Fixed screen orientation bug
+  * Improve wifi preferences
+  * Improved Dutch translation
+  * Added Swedish translation
+
 === v0.2.5 ===
   * Fixed custom IP validation
   * (hopefully) made the app show up for 1.6 users again
