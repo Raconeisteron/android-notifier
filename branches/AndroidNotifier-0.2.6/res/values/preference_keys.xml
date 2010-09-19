@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- These are constants used internally for preferences - DO NOT TRANSLATE -->
+  <string name="is_first_time_key">isFirstTime</string>
+  <string name="service_state_key">serviceState</string>
+  <string name="start_at_boot_key">startAtBoot</string>
+  <string name="method_ip_key">wifiMethod</string>
+  <string name="target_ip_address_key">targetIpAddress</string>
+  <string name="target_custom_ips_key">targetCustomIpAddress</string>
+  <string name="send_udp_key">sendUdp</string>
+  <string name="send_tcp_key">sendTcp</string>
+  <string name="enable_wifi_key">enableWifi</string>
+  <string name="allow_cell_send_key">allowCellSend</string>
+  <string name="method_bluetooth_key">bluetoothMethod</string>
+  <string name="bluetooth_device_key">bluetoothDevice</string>
+  <string name="enable_bluetooth_key">enableBluetooth</string>
+  <string name="method_usb_key">usbMethod</string>
+  <string name="event_ring_key">ringEvent</string>
+  <string name="event_sms_key">smsEvent</string>
+  <string name="event_mms_key">mmsEvent</string>
+  <string name="event_battery_key">batteryEvent</string>
+  <string name="event_voicemail_key">voicemailEvent</string>
+  <string name="event_user_key">userEvent</string>
+  <string name="command_enable_key">commandsEnabled</string>
+  <string name="command_call_key">commandCall</string>
+  <string name="command_sms_key">commandSms</string>
+  <string name="command_bluetooth_key">commandBluetooth</string>
+  <string name="command_wifi_key">commandWifi</string>
+  <string name="bluetooth_source_key">bluetoothSource</string>
+  <string name="show_notification_icon_key">showNotificationIcon</string>
+  <string name="battery_min_level_key">minBatteryLevel</string>
+  <string name="battery_max_level_key">maxBatteryLevel</string>
+  <string name="battery_min_level_change_key">batteryMinLevelChange</string>
+
+  <!-- Fake preference keys - never saved, but show options in the preferences screen -->
+  <string name="method_bluetooth_options_key">bluetoothOptions</string>
+  <string name="method_ip_options_key">ipOptions</string>
+  <string name="wifi_sleep_policy_key">wifiSleepPolicy</string>
+  <string name="bluetooth_pairing_key">bluetoothPairing</string>
+  <string name="test_notification_key">testNotification</string>
+  <string name="about_key">about</string>
+  <string name="report_bug_key">reportBug</string>
+  <string name="event_battery_options_key">batteryOptions</string>
+</resources>
