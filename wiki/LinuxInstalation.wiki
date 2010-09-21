@@ -4,7 +4,7 @@
 
 Here are instructions for Linux instalation.
 
-= Details =
+= DEB =
 
 You can simply download one of the deb files available and let your package manager open it or use the Debian Repository set up here on googlecode. If you prefer the second option, continue reading.
 
@@ -27,7 +27,11 @@ Authentication keys are not provided, your linux distribution may complain about
 
 After instalation, "Android Notifier Desktop" will be available in your _Accessories_ menu.
 
-=== My Linux Distro does not support deb packages, you insensitive clod ===
+= RPM =
+
+There are RPM packages built for OpenSUSE and Fedora (they differ only on naming standards of architecture and dependencies), you can download and install them directly.
+
+=== My Linux Distro does not support deb or rpm packages, you insensitive clod ===
 
 Well, you can get a zip file in the Downloads tab for Linux, but you will have to install bluetooth libraries and libnotify manually to be able to use these features and you will not have a nice menu item created automatically for you.
 
