@@ -1,0 +1,44 @@
+#summary Instructions to setup bluetooth communication
+
+= Requirements =
+
+First, make sure your system is supported.
+
+=== For Windows you need ===
+
+ * Microsoft Bluetooth stack (this means Windows XP SP2 or newer)
+ * Broadcom stack v6 on Windows Vista
+ * A Bluetooth [http://support.microsoft.com/default.aspx?kbid=841803 device supported] by the Microsoft Bluetooth stack
+ * [http://sourceforge.net/apps/mediawiki/bluecove/index.php?title=Ms-usb-dongles Here] is a list of dongles known to work on Windows
+
+`*` Toshiba bluetooth stack is not supported
+
+`*` Widcomm 64-bit stack is not supported
+
+=== For Linux you need ===
+
+ * deb files declare all dependencies you need
+ * Your bluetooth hardware must be recognized properly by the operating system
+
+=== For Mac, you need ===
+
+ * PowerPC- or Intel-based Mac OS X 10.4 (Bluetooth v1.2) or later
+ * Your bluetooth hardware must be recognized properly by the operating system
+`*` Mac OS 10.5 is not supported with 64bit Java, try running AND 32bit or the native Mac client from the [http://code.google.com/p/android-notifier/ android-notifier] project page
+
+= Setup =
+
+Please, follow these steps carefully to get bluetooth working.
+
+ * Close Android Notifier Desktop if it is running (right-click tray icon -> Quit)
+ * Pair your device with your computer using the Bluetooth Manager of your Operating System
+ * Run Android Notifier Desktop again
+ * Enable bluetooth in the preferences window if it's not enabled already (right-click tray icon -> Preferences...)
+ * Click OK to close the preferences window
+ * Send test notification from your device
+ * Wait a couple seconds
+ * If AND doesn't show a ping test notification, send test notification again
+
+Bluetooth takes some time to send the first notifications but it'll be pretty quick after the first ones.
+
+If you still don't get bluetooth notifications, feel free to create an issue on this project.
