@@ -10,9 +10,14 @@
   * Allow desktop to send SMS or make calls
   * Allow desktop to ping phone ("phone finder")
   * Add USB support via TCP
-  * Allow notifying any text
   * Widget to turn service on/off
-  * Add Locale plugin
+
+=== v0.2.7 ===
+  * Added encryption support
+  * Added Locale/Tasker plugin for changing settings
+  * Reorganized preferences screen
+  * Fixed multiple small bugs
+  * Updated Dutch and Swedish translations
 
 === v0.2.6 ===
   * Added multiple IPs support
@@ -88,14 +93,47 @@
 === v0.1 ===
   * Initial version
 
-== Mac app ==
+== Multiplatform desktop app ==
 
 === Future ===
   * Add missed call support
   * Allow sending SMS or making calls
-  * Add usb support using adblib
+  * Add usb support
   * Allow bluetooth device selection/pairing
   * Allow hiding of the menu icon (use a preference pane instead, like Growl does)
+  * i18n
+  * Add native Growl support on Macs
+
+=== v0.4 ===
+  * Fixes issues 6, 9, 57, 58, 82, 87, 88, 97, 107
+  * Copy notification description to clipboard when it arrives
+  * Execute commands when notifications arrive (for example, pause video player on incoming call)
+  * Support for third-party apps notifications
+
+=== v0.3 ===
+  * Fixes issues 23, 25, 32, 62, 77
+  * No need to click OK in Preferences window to apply changes, they are applied as soon as check boxes are clicked
+  * Improved bluetooth handling with some bug fixes
+  * Better Growl for Windows integration. Growl for Mac doesn't support icons for network notifications. The Growl developers are planning to support icons in version 2.
+  * Check for updates and show log tray menu items
+
+=== v0.2.1 ===
+Includes a fix for a critical issue reported in Ubuntu.
+
+TODO(lephyro): Past changelog
+
+== Mac app ==
+
+=== Future ===
+  * Merge with multiplatform app
+
+=== v0.2.8 ===
+  * Added encryption support
+
+=== v0.2.7 ===
+  * Added third-party notification support
+  * Added support for PowerPC macs
+  * Updated icons (thanks to Kahil Young)
 
 === v0.2.6 ===
   * Allow receiving notifications over TCP
