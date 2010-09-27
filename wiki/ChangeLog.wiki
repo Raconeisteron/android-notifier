@@ -11,6 +11,7 @@
   * Allow desktop to ping phone ("phone finder")
   * Add USB support via TCP
   * Widget to turn service on/off
+  * Run service as foreground
 
 === v0.2.7 ===
   * Added encryption support
