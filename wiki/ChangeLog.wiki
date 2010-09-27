@@ -93,6 +93,11 @@
 === v0.1 ===
   * Initial version
 
+== Android Locale Notification Plugin ==
+
+=== v0.1 ===
+  * Initial version
+
 == Multiplatform desktop app ==
 
 === Future ===
