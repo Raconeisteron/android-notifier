@@ -1,1 +1,0 @@
-!define INSTALL_DIR ${install_dir}
