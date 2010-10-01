@@ -43,6 +43,6 @@ To be able to use bluetooth communication, you need to install bluez libs for yo
 
 To use libnotify, look for it using your system package manager.
 
-Don't forget to install Java 6! Both Sun Java and OpenJDK work fine, GCJ do not.
+Don't forget to install Java 6! Both Sun Java and OpenJDK work fine, GCJ does not.
 
 Maybe future releases will have packages for your distro...
