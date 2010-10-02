@@ -1,5 +1,7 @@
 #summary Protocol for the desktop app to send commands to Android.
-#labels Phase-Design
+#labels Phase-Design,Deprecated
+
+DEPRECATED: We decided to use protocol buffers instead. Hold for an update to this document.
 
 = Introduction =
 
