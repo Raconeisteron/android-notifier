@@ -96,6 +96,10 @@
 
 == Android Locale Notification Plugin ==
 
+=== v0.2 ===
+  * Improved info screen (by Peter Vegh)
+  * Added hint about empty fields
+
 === v0.1 ===
   * Initial version
 
