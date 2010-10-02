@@ -1,1 +1,0 @@
-mvn install:install-file -DpomFile=pom.xml -Dfile=osxappbundle-maven-plugin-1.0-alpha-2-PATCHED.jar
