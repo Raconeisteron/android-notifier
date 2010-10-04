@@ -1,4 +1,5 @@
 #summary Linux instalation instructions
+#labels Featured
 
 = Introduction =
 
