@@ -11,7 +11,7 @@ You can simply download one of the deb files available and let your package mana
 The _Software Sources_ line is the following (usually to be added in System -> Administration -> Software Sources, Third-Party Software tab):
 
 {{{
-deb http://android-notifier-desktop.googlecode.com/svn/deb-repo stable main
+deb http://android-notifier.googlecode.com/svn/repos/deb-repo stable main
 }}}
 
 After that, you can run:
@@ -21,7 +21,7 @@ sudo apt-get update
 sudo apt-get install android-notifier-desktop
 }}}
 
-Or search for _android-notifier-desktop_ on your software manager.
+Or search for _android-notifier-desktop_ in your software manager.
 
 Authentication keys are not provided, your linux distribution may complain about packages not authenticated. You can safely ignore this warning.
 
