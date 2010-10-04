@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-  <string-array name="wifiSleepPolicies">
-    <item>当屏幕关闭的时候</item>
-    <item>接电源时永不休眠</item>
-    <item>永不休眠</item>
-  </string-array>
-</resources>
