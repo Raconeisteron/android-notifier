@@ -114,11 +114,19 @@
   * i18n
   * Add native Growl support on Macs
 
+=== v0.5 ===
+  * Fixes issues 24, 105, 161, 181, 195
+  * Using icon _/usr/share/icons/android-notifier-desktop.png_ for tray item on Linux
+  * Using black and white icon on Mac
+  * Using revamped icons for notifications
+  * Protocol buffers support for notifications
+
 === v0.4 ===
   * Fixes issues 6, 9, 57, 58, 82, 87, 88, 97, 107
   * Copy notification description to clipboard when it arrives
   * Execute commands when notifications arrive (for example, pause video player on incoming call)
   * Support for third-party apps notifications
+  * Command-line parameters to run without tray icon and stop if running
 
 === v0.3 ===
   * Fixes issues 23, 25, 32, 62, 77
@@ -129,8 +137,6 @@
 
 === v0.2.1 ===
 Includes a fix for a critical issue reported in Ubuntu.
-
-TODO(lephyro): Past changelog
 
 == Mac app ==
 
