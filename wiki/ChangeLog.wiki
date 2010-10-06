@@ -114,6 +114,10 @@
   * i18n
   * Add native Growl support on Macs
 
+=== v0.5.1 ===
+  * Fixes critical issue 209
+  * Fixes issue with linux version not keeping preference changes
+
 === v0.5 ===
   * Fixes issues 24, 105, 161, 181, 195
   * Using icon _/usr/share/icons/android-notifier-desktop.png_ for tray item on Linux
