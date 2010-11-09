@@ -9,7 +9,7 @@ First, make sure your system is supported.
  * Microsoft Bluetooth stack (this means Windows XP SP2 or newer)
  * Properly recognized and configured bluetooth hardware using Windows tools
 
-`*` *HTC phones have known issues with bluetooth communication, please star issue 3 to get updates about it*
+`*` *HTC phones and some Samsung (Galaxy) ones have known issues with bluetooth communication, please star issue 3 to get updates about it*
 
 `*` Toshiba bluetooth stack is not supported
 
