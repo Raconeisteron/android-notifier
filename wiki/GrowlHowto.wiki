@@ -1,8 +1,8 @@
-#summary Instructions to setup Growl for Mac or Windows to show AND notifications
+#summary Instructions to setup Growl for Mac or Windows to show notifications using the Multiplatform desktop app
 
 = Introduction =
 
-Make sure you have the latest version of Android Notifier Desktop (AND) installed. It's recommended to have the latest version of Growl too.
+Make sure you have the latest version of Android Notifier for Desktop (AND) installed. It's recommended to have the latest version of Growl too.
 
 = Mac OSX =
 
