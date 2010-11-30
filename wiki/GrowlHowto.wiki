@@ -4,10 +4,22 @@
 
 Make sure you have the latest version of Android Notifier for Desktop (AND) installed. It's recommended to have the latest version of Growl too.
 
+= Windows =
+
+ # Stop AND if it's running
+ # Right-click [http://www.growlforwindows.com/ Growl for Windows] tray icon and select _Open Growl_
+ # Select _Security_ tab
+ # Keep _Require password for LAN apps_ deselected
+ # Select _Allow network notifications_
+ # Start AND
+ # Right-click AND tray icon and select _Preferences..._
+ # Select _Growl Notification Transport Protocol_
+ # "Android Notifier" should appear in the "Applications" tab of Growl after 5-10 seconds
+
 = Mac OSX =
 
  # Stop AND if it's running
- # Right-click Growl for Mac tray icon and select _Open Growl Preferences..._
+ # Right-click [http://growl.info/ Growl for Mac] tray icon and select _Open Growl Preferences..._
  # Go to _Network_ tab
  # Select _Listen for incoming notifications_
  # Select _Allow remote application registration_
@@ -18,15 +30,3 @@ Make sure you have the latest version of Android Notifier for Desktop (AND) inst
  # Right-click AND tray icon and select _Preferences..._
  # Select _Growl Notification Transport Protocol_
  # "Android Notifier" should appear in the _Applications_ tab of Growl after 5-10 seconds
-
-= Windows =
-
- # Stop AND if it's running
- # Right-click Growl for Windows tray icon and select _Open Growl_
- # Select _Security_ tab
- # Keep _Require password for LAN apps_ deselected
- # Select _Allow network notifications_
- # Start AND
- # Right-click AND tray icon and select _Preferences..._
- # Select _Growl Notification Transport Protocol_
- # "Android Notifier" should appear in the "Applications" tab of Growl after 5-10 seconds
